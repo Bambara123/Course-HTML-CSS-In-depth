@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    height: 150vh;
+    grid-template-rows: auto 1fr auto;
+   
+}
+
+header {
+    background-color: aqua;
+    text-align: center;
+    padding: 2em;
+}
+
+main{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+footer{
+    background-color: aqua;
+    text-align: center;
+    padding: 2em;
+}

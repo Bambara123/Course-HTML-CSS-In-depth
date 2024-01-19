@@ -1,0 +1,38 @@
+.parent{
+    display:grid;
+    grid-template-columns: repeat(12,1fr);
+
+}
+
+.segment{
+    display: grid;
+    text-align: center;
+    place-items: center;
+    grid-template-rows: 100px;
+}
+
+.twelve{
+    grid-column: 1/ span 12;
+    background-color: red;
+}
+
+.eight{
+    grid-column: 1/ span 8;
+    background-color: blue;
+}
+
+.four{
+    grid-column: 1/ span 4;
+    background-color: green;
+}
+
+.six{
+    grid-column: span 6;
+    background-color: yellow;
+
+}
+
+.seven{
+    grid-column: 2/ span 7;
+    background-color: yellowgreen;
+}

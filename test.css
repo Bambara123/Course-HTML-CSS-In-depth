@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+.item{
+    padding: 10px;
+}
+
